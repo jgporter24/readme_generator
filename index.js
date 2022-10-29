@@ -5,33 +5,33 @@ inquirer
 .prompt([
     {
         type:'input',
-        name:'name',
-        message: 'What is your name?',
+        name:'title',
+        message: 'What is your project title?',
     },
     {
       type: 'input',
-      name: 'location',
-      message: 'Where are you from?',
+      name: 'repo',
+      message: 'What is your repository name?',
     },
     {
       type: 'input',
-      name: 'hobby',
-      message: 'What is your favorite hobby?',
+      name: 'description',
+      message: 'What is the description of your project?',
     },
     {
       type: 'input',
-      name: 'food',
-      message: 'What is your favorite food?',
+      name: 'installation',
+      message: 'What command should be run to install dependencies?',
     },
     {
       type: 'input',
-      name: 'github',
-      message: 'Enter your GitHub Username',
+      name: 'usage',
+      message: 'What is the projects usage?',
     },
     {
       type: 'input',
-      name: 'linkedin',
-      message: 'Enter your LinkedIn URL.',
+      name: 'contribution',
+      message: 'What does the User need to know about project contributions?',
     },
   ])
   .then((answers) => {
