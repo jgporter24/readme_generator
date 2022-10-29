@@ -3,7 +3,7 @@ const fs = require('fs');
 const util = require('util');
 const emailValidator = require('email-validator');
 
-const generateMarkdown = require('./utility/markdowngenerate.js');
+const generateMarkdown = require('./utility/markdowngenerate');
 
 //Array of quesitons
 const questions = [
