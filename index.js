@@ -12,7 +12,7 @@ const questions = [
         name: 'title',
         message: 'What is your project title?',
         validate: (value) => {
-            (value ? true : 'Please enter a porject Title.')
+            if (value) { return true } else { return 'Please enter your project title.' }
         },
     },
     {
@@ -20,7 +20,7 @@ const questions = [
         name: 'repo',
         message: 'What is your repository name?',
         validate: (value) => {
-            (value ? true : 'Please enter your repository name.')
+            if (value) { return true } else { return 'Please enter your repository name.' }
         },
     },
     {
@@ -28,7 +28,7 @@ const questions = [
         name: 'description',
         message: 'What is the description of your project?',
         validate: (value) => {
-            (value ? true : 'Please enter your project description.')
+            if (value) { return true } else { return 'Please enter your project description.' }
         },
     },
     {
@@ -36,7 +36,7 @@ const questions = [
         name: 'installation',
         message: 'What command should be run to install dependencies?',
         validate: (value) => {
-            (value ? true : 'Please enter what command should be run to install dependendcies.')
+            if (value) { return true } else { return 'Please enter what command should be run to install dependendcies.' }
         },
     },
     {
@@ -44,7 +44,7 @@ const questions = [
         name: 'usage',
         message: 'What is the projects usage?',
         validate: (value) => {
-            (value ? true : 'Please enter your project usage.')
+            if (value) { return true } else { return 'Please enter your project usage.' }
         },
     },
     {
@@ -52,7 +52,7 @@ const questions = [
         name: 'contribution',
         message: 'What does the User need to know about project contributions?',
         validate: (value) => {
-            (value ? true : 'Please enter your project contributions.')
+            if (value) { return true } else { return 'Please enter your project contributions.'}
         },
     },
     {
@@ -60,7 +60,7 @@ const questions = [
         name: 'test',
         message: 'What are the test instructions?',
         validate: (value) => {
-            (value ? true : 'Please enter test instructions.')
+            if (value) { return true } else { return 'Please enter test instructions.'}
         },
     },
     {
@@ -69,7 +69,7 @@ const questions = [
         message: 'What license will this have?',
         choices: ["MIT", "ISC", "GNU GPLv3"],
         validate: (value) => {
-            (value ? true : 'Please select a license')
+            if (value) { return true } else { return 'Please select a license'}
         },
     },
     {
@@ -77,7 +77,7 @@ const questions = [
         name: 'github',
         message: 'What is your GitHub username?',
         validate: (value) => {
-            (value ? true : 'Please enter your GitHub username.')
+            if (value) { return true } else { return 'Please enter your GitHub username.'}
         },
     },
     {
