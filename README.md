@@ -1,8 +1,8 @@
 
-    # README_Generator
-    ![License Badge](https://img.shields.io/github/license/jgporter24/readme_generator)
+    # test
+    ![License Badge](https://img.shields.io/github/license/test/test)
     ## Description
-    The purpose of this project is to create a node that helps generate a readme file for the user. By answering a few questions it will create the following sections: 
+    test
     ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
@@ -11,19 +11,19 @@
     * [Questions](#questions)
     * [License](#license)
     ## Installation
-    init
+    test
     ## Usage
-    The usage of this project is to have an easy setup for a README.md file. Below is an image example of a completed readme using this node. Below the image you can find a link to a 
+    test
     ## Tests
-    o test this node simply rund the node index.js command and the 10 prompts should initiate. Bugs to be aware of are if you alter any const names it will break the code.
+    test
     ## Contribution
-    Huge thank you to office hours, classmates and google for helping complete this project.
+    test
     ## Questions
-    * Checkout my [GitHub profile](https://github.com/jgporter24)
+    * Checkout my [GitHub profile](https://github.com/test)
     
-    * Any additional questions or feed back, feel free to [send an email](mailto:jess.g.porter@gmail.com). 
+    * Any additional questions or feed back, feel free to [send an email](mailto:test@test.com). 
     ## License
-    Copyright (c) [jgporter24](https://github.com/jgporter24). All rights reserved.
+    Copyright (c) [test](https://github.com/test). All rights reserved.
     
     Licensed under the MIT license.
     
