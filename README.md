@@ -1,5 +1,6 @@
 
-    # README_Generator
+    # README Generator
+
     ![License Badge](https://img.shields.io/github/license/jgporter24/readme_generator)
 
     ## Description
@@ -14,10 +15,10 @@
     * [License](#license)
     
     ## Installation
-    init
+    init 
 
     ## Usage
-    The usage of this project is to have an easy setup for a README.md file. Below is an image example of a completed readme using this node. Below the image you can find a link to a video of functionality as well.
+The usage of this project is to have an easy setup for a README.md file. Below is an image example
 
     ## Tests
     To test this node simply rund the node index.js command and the 10 prompts should initiate. Bugs to be aware of are if you alter any const names it will break the code.
