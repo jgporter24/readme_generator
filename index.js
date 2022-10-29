@@ -93,9 +93,13 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Successfully created README.md!')
-    );
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log('README file successfully created!');
+        }
+    })
 };
 
 function init() {
