@@ -21,7 +21,7 @@
 3. npm install to install the required npm packages
 
   ## Usage
-The usage of this project is to have an easy setup for a README.md file. Below is an image example. You can view a video of how it runs ![here](https://github.com/jgporter24/readme_generator/raw/main/assets/Readme_generator.webm)
+The usage of this project is to have an easy setup for a README.md file. Below is an image example. You can download a video of how it runs ![here](https://github.com/jgporter24/readme_generator/raw/main/assets/Readme_generator.webm)
 ![readme](assets/readme_img.png)
 
   ## Tests
