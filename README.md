@@ -21,7 +21,7 @@
 3. npm install to install the required npm packages
 
   ## Usage
-The usage of this project is to have an easy setup for a README.md file. Below is an image example. You can view a video of how it runs ![here](https://drive.google.com/file/d/1FCn224SHBscfpgUdfPOiaUPQ7l3uxuEF/view)
+The usage of this project is to have an easy setup for a README.md file. Below is an image example. You can view a video of how it runs ![here](assets/readme.gif)
 ![readme](assets/readme_img.png)
 
   ## Tests
