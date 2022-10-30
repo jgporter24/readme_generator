@@ -22,7 +22,7 @@
 
   ## Usage
 The usage of this project is to have an easy setup for a README.md file. Below is an image example.
-![read]
+![assets/readme_img.png]
 
   ## Tests
    To test this node simply rund the node index.js command and the 10 prompts should initiate. Bugs to be aware of are if you alter any const names it will break the code.
